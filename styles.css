@@ -1,9 +1,131 @@
 * {
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Overall Styles */
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #464655;
+    font-weight: 550;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffda71;
+    padding: 4px 8px;
+}
+/* Heder Logo styles */
+.title {
+    margin-left: 16px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.title p {
+    font-weight: 750;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
 }
 
 .title-img {
-    height: 100px;
-    width: auto;
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+    border: 1px solid;
+}
+/* Header navigation styles */
+.navigation-top ul, .footer-navigation ul {
+    display: flex;
+    gap: 24px;
+    padding: auto;
+    list-style: none;
+    margin-right: 16px;
+}
+
+.navigation-top li, .footer-navigation li {
+    align-items: center;
+    text-decoration: none;
+}
+
+/* Hero section styles */
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./Images/bitcoin-background-image-hero-section.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+    padding: 256px;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-desc {
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 2.25em;
+}
+
+/* Content section styles */
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 100px;
+    background-color: #d76a03;
+}
+
+.content-article {
+    border: 2.5px solid white;
+    border-radius: 25px;
+    margin: auto;
+    padding: 16px;
+    height: 400px;
+    width: 300px;
+    flex: 1 1 auto;
+    color: white;
+}
+
+.content-article h2 {
+    font-weight: 550;
+    text-decoration: underline;
+}
+
+.content-article p, .content-article ol {
+    text-align: justify;
+    padding-top: 8px;
+    font-size: 18px;
+}
+
+/* Quote section styles */
+
+/* Footer styles */
+.footer-navigation ul, .footer-navigation li {
+    margin-left: auto;
+    margin-right: 16px;
+    gap: 10px;
 }

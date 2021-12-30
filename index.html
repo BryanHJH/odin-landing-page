@@ -12,9 +12,12 @@
     <header>
         <!--Header title or logo-->
         <div id="title" class="title">
-            <a href="./index.html">
+            <a id="title-container" class="title-container" href="./index.html">
                 <img id="title-img" class="title-img" src="./Images/bitcoin-title-image.jpg"> 
             </a>
+            <p>
+                BlockChain
+            </p>
         </div>
         <!--Top Navigation bar/buttons-->
         <nav id="navigation-top" class="navigation-top">
@@ -24,32 +27,92 @@
                 <li><a href="#">About BlockChain</a></li>
             </ul>
         </nav>
-        <button>
-            Contact Us
-        </button>
     </header>
+
     <!--Hero section-->
-    <div id="hero hero-image" class="hero hero-image">
+    <section id="hero hero-image" class="hero hero-image">
         <div id="hero-desc" class="hero-desc">
+            <!--Hero section title-->
             <h1>BlockChain, technology of the future</h1>
+            <!--Hero section subtitle-->
             <p>
                 A new system of recording information, implemented in the trending cryptocurrency and many more areas. Blockchain makes it nigh impossible to change, hack or cheat the system, creating a safe haven for private information.
             </p>
         </div>
-    </div>
+    </section>
+
     <!--Main contents-->
-    <div id="content" class="content">
+    <section id="content" class="content">
         <!--Main content cards, will be arranged using flex-->
         <article id="content-article" class="content-article">
+            <h2>
+                What is Blockchain?
+            </h2>
+            <p>
+                Blockchain is a distributed database that is shared among nodes of a computer network. It is implemented in most cryptocurrency systems, such as Bitcoin, Ethereum and more. By using blockchain, the transactions involved are secure and decentralized, guarnateeing its fidelity and security of the data without a trusted third party. The goal of blockchain is to allow digital information to be recorded and distributed, but not edited.
+            </p>
+            <small><em>From Investopedia</em></small>
+        </article>
+        <article id="content-article" class="content-article">
+            <h2>
+                Advantages of Blockchain
+            </h2>
+
+            <ol>
+                <li>
+                    Improved accuracy by removing human involvement in verification
+                </li>
+                <li>
+                    Cost reductions by eliminating third-party verification
+                </li>
+                <li>
+                    Decentralization makes it harder to tamper with
+                </li>
+                <li>
+                    Transactions are secure, private, and efficient
+                </li>
+                <li>
+                    Transparent technology
+                </li>
+            </ol>
 
         </article>
         <article id="content-article" class="content-article">
-
+            <h2>
+                Disadvantages of Blockchain
+            </h2>
+            <ol>
+                <li>
+                    Significant technology cost associated with mining Bitcoin
+                </li>
+                <li>
+                    Low transaction per second
+                </li>
+                <li>
+                    History of use in ilicit activities, such as on the dark web
+                </li>
+                <li>
+                    Regulation varies by jurisdiction and remains uncertain
+                </li>
+                <li>
+                    Data storage limitations
+                </li>
+            </ol>
         </article>
-        <article id="content-article" class="content-article">
+    </section>
 
-        </article>
-    </div>
+    <!--Quote-->
+    <section id="quote" class="quote">
+        <figure>
+            <blockquote cite="https://www.google.com/url?sa=i&url=https%3A%2F%2Fgraciousquotes.com%2Fbitcoin-quotes%2F&psig=AOvVaw3B_tjOC5xUjCKkernXJEF-&ust=1640878088080000&source=images&cd=vfe&ved=0CAwQjhxqFwoTCJCd366pifUCFQAAAAAdAAAAABAD">
+                <p>There may be other currencies like it that may be even better. But in the meantime, there's a big industry around Bitcoin.</p>
+            </blockquote>
+            <figcaption>quote from Richard Branson</figcaption>
+        </figure>
+        
+        
+    </section>
+    
     <!--Footer-->
     <footer>
         <!--Footer content-->
@@ -58,7 +121,11 @@
         </div>
         <!--Footer navigation, same as the one at the top-->
         <nav id="footer-navigation" class="footer-navigation">
-
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">About BlockChain</a></li>
+            </ul>
         </nav>
     </footer>
 </body>
