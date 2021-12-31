@@ -18,7 +18,7 @@ nav {
 a {
     text-decoration: none;
     color: #464655;
-    font-weight: 550;
+    font-weight: 350;
 }
 
 /* Header styles */
@@ -26,7 +26,7 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #ffda71;
-    padding: 4px 8px;
+    padding: 16px 8px;
 }
 /* Heder Logo styles */
 .title {
@@ -122,8 +122,54 @@ header {
 }
 
 /* Quote section styles */
+.quote {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 128px;
+    gap: 24px;
+    background-color: #3f784c;
+}
+
+.quote-block {
+    padding: 16px;
+    margin-left: -10px;
+    color: white;
+    flex: 1 1 auto;
+}
+
+.quote-block blockquote {
+    font-weight: bold;
+    font-size: 2em;
+    text-align: left;
+    margin: 16px;
+}
+
+.quote-block figcaption {
+    text-align: right;
+}
+
+.quote-image {
+    border-radius: 25%;
+    overflow: hidden;
+    width: 750px;
+    height: auto;
+    flex-grow: 0;
+}
 
 /* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #ffda71;
+}
+
+.footer-content p {
+    font-weight: 950;
+}
+
 .footer-navigation ul, .footer-navigation li {
     margin-left: auto;
     margin-right: 16px;
